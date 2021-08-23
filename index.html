@@ -1,12 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>codedamn Project</title>
-	</head>
-	<body>
-		<!-- start writing your code -->
-	</body>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="./styles/styles.css" />
+	<title>codedamn Project</title>
+</head>
+
+<body>
+	<!-- start writing your code -->
+	<main class='main'>
+		<div class='filler'></div>
+
+		<nav>
+
+			<svg class="icon active" id='homeIcon' xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24"
+				width="24px" fill="#fff">
+				<path d="M0 0h24v24H0V0z" fill="none" />
+				<path d="M12 5.69l5 4.5V18h-2v-6H9v6H7v-7.81l5-4.5M12 3L2 12h3v8h6v-6h2v6h6v-8h3L12 3z" />
+			</svg>
+
+			<svg class="icon" id='workIcon' xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"
+				fill="#fff">
+				<path d="M0 0h24v24H0V0z" fill="none" />
+				<path
+					d="M9.17 6l2 2H20v10H4V6h5.17M10 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2h-8l-2-2z" />
+			</svg>
+
+
+			<svg class="icon" id='contactIcon' xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24"
+				width="24px" fill="#FFFFFF">
+				<path d="M0 0h24v24H0V0z" fill="none" />
+				<path
+					d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6zm-2 0l-8 5-8-5h16zm0 12H4V8l8 5 8-5v10z" />
+			</svg>
+
+			<a href='https://www.twitter.com' target=”_blank”>
+				<svg class="icon" id='twitterIcon' fill="#fff" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"
+					width="24px" height="24px">
+					<path
+						d="M28,6.937c-0.957,0.425-1.985,0.711-3.064,0.84c1.102-0.66,1.947-1.705,2.345-2.951c-1.03,0.611-2.172,1.055-3.388,1.295 c-0.973-1.037-2.359-1.685-3.893-1.685c-2.946,0-5.334,2.389-5.334,5.334c0,0.418,0.048,0.826,0.138,1.215 c-4.433-0.222-8.363-2.346-10.995-5.574C3.351,6.199,3.088,7.115,3.088,8.094c0,1.85,0.941,3.483,2.372,4.439 c-0.874-0.028-1.697-0.268-2.416-0.667c0,0.023,0,0.044,0,0.067c0,2.585,1.838,4.741,4.279,5.23 c-0.447,0.122-0.919,0.187-1.406,0.187c-0.343,0-0.678-0.034-1.003-0.095c0.679,2.119,2.649,3.662,4.983,3.705 c-1.825,1.431-4.125,2.284-6.625,2.284c-0.43,0-0.855-0.025-1.273-0.075c2.361,1.513,5.164,2.396,8.177,2.396 c9.812,0,15.176-8.128,15.176-15.177c0-0.231-0.005-0.461-0.015-0.69C26.38,8.945,27.285,8.006,28,6.937z" />
+				</svg>
+			</a>
+		</nav>
+
+		<div class="arrow-up"></div>
+
+		<div class="windowContainer">
+			<div class="home-card window" id='home'>
+				<div class="home-card__info ">
+					<div>
+						<h1>Jane Doe</h1>
+						<h2>Senior Astral Projectionist</h2>
+					</div>
+				</div>
+				<div class="home-card_btn">
+					<svg height="45.999" fill='#fff' viewBox="0 0 26.002 45.999" width="26.002"
+						xmlns="http://www.w3.org/2000/svg">
+						<path
+							d="M24.998 40.094a3.484 3.484 0 010 4.893 3.404 3.404 0 01-4.846 0L1.004 25.447a3.486 3.486 0 010-4.895L20.152 1.014a3.402 3.402 0 014.846 0 3.484 3.484 0 010 4.893L9.295 23l15.703 17.094z" />
+					</svg>
+				</div>
+				<img class="home-card__img" src='./assets/images/me.jpg' alt='hello' />
+			</div>
+
+			<div class='design-container window displayNone ' id='designWork'>
+
+				<h1>Work</h1>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia qui officia commodi pariatur, aperiam quo
+					exercitationem corporis quidem necessitatibus natus veritatis? Reiciendis debitis sed deleniti</p>
+				<div class="photos">
+					<img src='./assets/images/pic01.jpg' />
+					<img src='./assets/images/pic02.jpg' />
+					<img src='./assets/images/pic03.jpg' />
+					<img src='./assets/images/pic04.jpg' />
+					<img src='./assets/images/pic05.jpg' />
+					<img src='./assets/images/pic06.jpg' />
+					<img src='./assets/images/pic07.jpg' />
+					<img src='./assets/images/pic08.jpg' />
+					<img src='./assets/images/pic09.jpg' />
+					<img src='./assets/images/pic10.jpg' />
+					<img src='./assets/images/pic11.jpg' />
+					<img src='./assets/images/pic12.jpg' />
+				</div>
+
+			</div>
+
+			<div class='contact window displayNone ' id='contact'>
+				<h1 class='contact-header'>Contact Me</h1>
+				<form class='contact-form' id='form1'>
+					<input class='input name' type='text' placeholder="name" />
+					<input class='input email' type='email' placeholder="Email" />
+					<input class='input subject' type='text' placeholder="subject" />
+					<textarea class='message' placeholder="Message" resize='none'></textarea>
+				</form>
+				<button class='contact-btn' type="submit" form="form1">Send Message</button>
+			</div>
+		</div>
+
+
+
+
+		<footer class="footer">
+
+			<p>Untitled &nbsp; &nbsp; | &nbsp; &nbsp; Design:
+				<a href="https://www.google.com">HTML5 UP</a> &nbsp; &nbsp;
+				| &nbsp; &nbsp;Demo Image:
+				<a href='https://www.unsplash.com'>Unsplash</a>
+			</p>
+		</footer>
+	</main>
+	<script src="./js/scripts.js"></script>
+</body>
+
 </html>
